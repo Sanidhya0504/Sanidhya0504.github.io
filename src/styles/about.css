@@ -1,0 +1,24 @@
+.arrow {
+  justify-content: flex-start;
+  height: 120px;
+}
+.body--wrap {
+  display: flex;
+  background-color: #ffffff;
+}
+.timeline--wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #ffffff;
+}
+.hat {
+  justify-content: flex-start;
+  height: 50px;
+}
+.edu--wrap {
+  background-color: #ffffff;
+  max-width: 500px;
+  padding: 20px;
+  text-align: left;
+}

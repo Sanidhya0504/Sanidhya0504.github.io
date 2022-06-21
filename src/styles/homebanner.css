@@ -1,0 +1,22 @@
+.banner {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#home--img {
+  height: 50vh;
+  width: 50vh;
+}
+#text {
+  text-align: left;
+  color: #3974e8;
+}
+.back--banner {
+  height: 100vh;
+  z-index: 0;
+}
+#name--head {
+  color: #00008b;
+  font-weight: bold;
+}
