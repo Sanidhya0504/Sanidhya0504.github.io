@@ -16,12 +16,12 @@ function Navigation() {
               <Nav className="me-auto"></Nav>
               <Nav>
                 <Nav.Link>
-                  <Link to="about" spy={true} smooth={true}>
+                  <Link to="about" spy={true} smooth={false}>
                     {"<"}Skills/{">"}
                   </Link>
                 </Nav.Link>
                 <Nav.Link>
-                  <Link to="about" spy={true} smooth={true}>
+                  <Link to="about" spy={true} smooth={false}>
                     {"<"}About/{">"}
                   </Link>
                 </Nav.Link>

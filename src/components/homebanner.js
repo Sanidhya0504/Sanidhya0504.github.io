@@ -7,12 +7,14 @@ function Homebanner() {
   return (
     <div className="banner">
       <Particles className="back--banner" />
-      <div id="text">
-        <h3>Hey!</h3>
-        <h1 id="name--head">I'm Sanidhya</h1>
-        <h3>I'm a Web Developer</h3>
+      <div className="banner--wrap">
+        <div className="text--wrap">
+          <h3 className="text">Hey!</h3>
+          <h1 id="name--head">I'm Sanidhya</h1>
+          <h3 className="text">I'm a Web Developer</h3>
+        </div>
+        <img id="home--img" src={Img}></img>
       </div>
-      <img id="home--img" src={Img}></img>
     </div>
   );
 }
