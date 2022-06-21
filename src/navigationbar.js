@@ -1,5 +1,5 @@
 import { Nav, Navbar, Container } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 import "./styles/navigationbar.css";
 import React from "react";
 function Navigation() {
@@ -15,11 +15,15 @@ function Navigation() {
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="me-auto"></Nav>
               <Nav>
-                <Nav.Link href="#deets">
-                  {"<"}Contact/{">"}
+                <Nav.Link>
+                  <Link to="about" spy={true} smooth={true}>
+                    {"<"}Skills/{">"}
+                  </Link>
                 </Nav.Link>
-                <Nav.Link href="#deets">
-                  {"<"}About/{">"}
+                <Nav.Link>
+                  <Link to="about" spy={true} smooth={true}>
+                    {"<"}About/{">"}
+                  </Link>
                 </Nav.Link>
               </Nav>
             </Navbar.Collapse>
