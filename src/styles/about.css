@@ -64,3 +64,24 @@
     padding-right: 30px;
   }
 }
+
+* {
+  cursor: none;
+}
+
+.cursor {
+  width: 20px;
+  height: 20px;
+  background-color: yellow;
+  position: fixed;
+  border-radius: 50%;
+  pointer-events: none;
+  mix-blend-mode: difference;
+  top: 0;
+  left: 0;
+}
+
+#about:hover ~ .cursor {
+  width: 100px;
+  height: 100px;
+}

@@ -8,7 +8,7 @@ function Navigation() {
       <div className="App">
         <Navbar collapseOnSelect expand="lg" variant="light">
           <Container className="nav_text">
-            <Navbar.Brand href="#home">
+            <Navbar.Brand>
               {"<"}Sanidhya/{">"}
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />

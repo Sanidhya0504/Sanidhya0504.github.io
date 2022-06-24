@@ -13,6 +13,7 @@ function App() {
       <Homebanner />
 
       <About />
+
       <Footer />
     </div>
   );
