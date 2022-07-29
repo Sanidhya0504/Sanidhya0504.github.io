@@ -4,6 +4,7 @@ import React from "react";
 import Homebanner from "./components/homebanner";
 import About from "./components/about";
 import Footer from "./components/Footer";
+import Skills from "./components/skills";
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
       <Homebanner />
 
       <About />
-
+      <Skills />
       <Footer />
     </div>
   );
