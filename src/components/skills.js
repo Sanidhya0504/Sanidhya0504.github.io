@@ -6,6 +6,7 @@ function Skills() {
   return (
     <div className="icon--wrap">
       <img className="icons" src={icons}></img>
+      <div>Hello</div>
     </div>
   );
 }
