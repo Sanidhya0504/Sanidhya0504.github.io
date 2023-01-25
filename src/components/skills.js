@@ -4,10 +4,14 @@ import "../styles/skills.css";
 
 function Skills() {
   return (
-    <div className="icon--wrap">
-      <img className="icons" src={icons}></img>
-      <div>Hello</div>
-    </div>
+    <>
+      <div className="icon--wrap">
+        <hr />
+        <h2 className="skill--head">Skills</h2>
+        {/*  */}
+      </div>
+      <img id="skill--img" src={icons}></img>
+    </>
   );
 }
 

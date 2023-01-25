@@ -14,7 +14,7 @@ function App() {
       <Homebanner />
 
       <About />
-      {/* <Skills />*/}
+      <Skills />
       <Footer />
     </div>
   );
