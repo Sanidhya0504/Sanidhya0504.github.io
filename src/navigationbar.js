@@ -16,7 +16,7 @@ function Navigation() {
               <Nav className="me-auto"></Nav>
               <Nav>
                 <Nav.Link>
-                  <Link to="about" spy={true} smooth={false}>
+                  <Link to="skills" spy={true} smooth={false}>
                     {"<"}Skills/{">"}
                   </Link>
                 </Nav.Link>
