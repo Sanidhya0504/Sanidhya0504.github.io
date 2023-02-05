@@ -14,8 +14,11 @@ function Light() {
       <Homebanner />
 
       <About />
+
       <Skills />
+
       <Footer />
+      <kawaiiCat />
     </div>
   );
 }

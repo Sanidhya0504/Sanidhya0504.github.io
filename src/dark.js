@@ -15,6 +15,7 @@ function Dark() {
 
       <AboutDark />
       <SkillsDark />
+
       <FooterDark />
     </div>
   );

@@ -16,6 +16,43 @@
   color: #00008a;
   text-align: center;
 }
+.skill--icon {
+  height: 15vh;
+  width: 15vw;
+}
+.git--icon {
+  height: 20vh;
+  width: 20vh;
+}
+.skills--container {
+  justify-content: center;
+
+  display: flex;
+}
+.skill-container-left-1 {
+  gap: 5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.skill-container-left-2 {
+  gap: 5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.skill-container-right-1 {
+  gap: 5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.skill-container-right-2 {
+  gap: 5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
 #skill--img {
   height: 110vh;
