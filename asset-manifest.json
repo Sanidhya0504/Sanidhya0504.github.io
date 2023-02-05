@@ -1,22 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.0f15b906.css",
-    "main.js": "/static/js/main.bbee3e38.js",
+    "main.css": "/static/css/main.ddac5ad9.css",
+    "main.js": "/static/js/main.f83863ab.js",
     "static/js/937.4c2b7811.chunk.js": "/static/js/937.4c2b7811.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/—Pngtree—science and technology high-tech earth_5449137.png": "/static/media/—Pngtree—science and technology high-tech earth_5449137.c14bc4e0129e3a9812f5.png",
     "static/media/pc.png": "/static/media/pc.b33b859e7ff0a3b50af5.png",
     "static/media/icons.png": "/static/media/icons.ca3419c10369aac23834.png",
     "static/media/waves.svg": "/static/media/waves.6d97c39c5ce015f2c2aa1c94515891a4.svg",
+    "static/media/waves3.svg": "/static/media/waves3.d6612313331fdfd22866115a58154eb8.svg",
     "static/media/arrow.svg": "/static/media/arrow.72eb944bb94a864107bf875def0cfc1d.svg",
     "static/media/hat.svg": "/static/media/hat.66c1948860a518c39ed3d5b7297d7446.svg",
     "index.html": "/index.html",
-    "main.0f15b906.css.map": "/static/css/main.0f15b906.css.map",
-    "main.bbee3e38.js.map": "/static/js/main.bbee3e38.js.map",
+    "main.ddac5ad9.css.map": "/static/css/main.ddac5ad9.css.map",
+    "main.f83863ab.js.map": "/static/js/main.f83863ab.js.map",
     "937.4c2b7811.chunk.js.map": "/static/js/937.4c2b7811.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0f15b906.css",
-    "static/js/main.bbee3e38.js"
+    "static/css/main.ddac5ad9.css",
+    "static/js/main.f83863ab.js"
   ]
 }
