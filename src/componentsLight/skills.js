@@ -24,47 +24,50 @@ function Skills() {
         <h2 className="skill--head">Skills</h2>
       </div>
       <div className="skills--container">
-        <div className="skill-container-left-1">
-          <SiReact
-            className="skill--icon"
-            onMouseOver={() => changeMood("happy")}
-          />
-          <SiJavascript
-            className="skill--icon"
-            onMouseOver={() => changeMood("blissful")}
-          />
-        </div>
-        <div className="skill-container-left-2">
-          <SiJava
-            className="skill--icon"
-            onMouseOver={() => changeMood("lovestruck")}
-          />
-          <SiMysql
-            className="skill--icon"
-            onMouseOver={() => changeMood("ko")}
-          />
+        <div className="skill-container-left">
+          <div className="skill-container-left-1">
+            <SiReact
+              className="skill--icon"
+              onMouseOver={() => changeMood("happy")}
+            />
+            <SiJavascript
+              className="skill--icon"
+              onMouseOver={() => changeMood("blissful")}
+            />
+          </div>
+          <div className="skill-container-left-2">
+            <SiJava
+              className="skill--icon"
+              onMouseOver={() => changeMood("lovestruck")}
+            />
+            <SiMysql
+              className="skill--icon"
+              onMouseOver={() => changeMood("ko")}
+            />
+          </div>
         </div>
         <KawaiiCat mood={data} />
-
-        <div className="skill-container-right-1">
-          <SiSpring
-            className="skill--icon"
-            onMouseOver={() => changeMood("blissful")}
-          />
-          <SiFirebase
-            className="skill--icon"
-            onMouseOver={() => changeMood("shocked")}
-          />
-        </div>
-        <div className="skill-container-right-2">
-          <SiSpringboot
-            className="skill--icon"
-            onMouseOver={() => changeMood("lovestruck")}
-          />
-          <SiGit
-            className="skill--icon"
-            onMouseOver={() => changeMood("happy")}
-          />
+        <div className="skill-container-right">
+          <div className="skill-container-right-1">
+            <SiSpring
+              className="skill--icon"
+              onMouseOver={() => changeMood("blissful")}
+            />
+            <SiFirebase
+              className="skill--icon"
+              onMouseOver={() => changeMood("shocked")}
+            />
+          </div>
+          <div className="skill-container-right-2">
+            <SiSpringboot
+              className="skill--icon"
+              onMouseOver={() => changeMood("lovestruck")}
+            />
+            <SiGit
+              className="skill--icon"
+              onMouseOver={() => changeMood("happy")}
+            />
+          </div>
         </div>
       </div>
     </div>

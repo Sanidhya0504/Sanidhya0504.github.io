@@ -29,6 +29,14 @@
 
   display: flex;
 }
+.skill-container-left {
+  display: flex;
+  flex-direction: row;
+}
+.skill-container-right {
+  display: flex;
+  flex-direction: row;
+}
 .skill-container-left-1 {
   gap: 5vh;
   display: flex;
@@ -62,9 +70,17 @@
     height: 80vh;
   }
 }
-@media (max-width: 750px) {
+@media (max-width: 800px) {
   #skill--img {
     height: 60vh;
+  }
+  .skill-container-left {
+    display: flex;
+    flex-direction: column;
+  }
+  .skill-container-right {
+    display: flex;
+    flex-direction: column;
   }
 }
 
