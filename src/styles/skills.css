@@ -74,6 +74,9 @@
   #skill--img {
     height: 60vh;
   }
+  .cat--kawaii {
+    height: 10vh;
+  }
   .skill-container-left {
     display: flex;
     flex-direction: column;

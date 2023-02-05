@@ -10,7 +10,7 @@ function kawaiiCat(catmood) {
   }
   return (
     <div className="cat-wrap">
-      <Cat size={320} mood={mood} color="#c9dbff" />
+      <Cat className="cat--kawaii" size={250} mood={mood} color="#c9dbff" />
     </div>
   );
 }

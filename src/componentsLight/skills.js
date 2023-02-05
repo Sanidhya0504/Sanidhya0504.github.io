@@ -46,7 +46,7 @@ function Skills() {
             />
           </div>
         </div>
-        <KawaiiCat mood={data} />
+        <KawaiiCat className="cat--kawaii" mood={data} />
         <div className="skill-container-right">
           <div className="skill-container-right-1">
             <SiSpring
