@@ -1,18 +1,18 @@
 import React from "react";
 import icons from "../images/icons.png";
+import "../stylesdark/skillsDark.css";
 import "../styles/skills.css";
 
-function Skills() {
+function SkillsDark() {
   return (
-    <div id="skills">
+    <div id="skills--dark">
       <div className="icon--wrap">
         <hr />
-        <h2 className="skill--head">Skills</h2>
-        {/*  */}
+        <h2 className="skill--head--dark">Skills</h2>
       </div>
       <img id="skill--img" src={icons}></img>
     </div>
   );
 }
 
-export default Skills;
+export default SkillsDark;

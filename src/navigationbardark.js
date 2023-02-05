@@ -1,13 +1,12 @@
 import { Nav, Navbar, Container } from "react-bootstrap";
 import { Link } from "react-scroll";
-
 import "./styles/navigationbar.css";
 import React from "react";
 import Button from "react-bootstrap/Button";
 import { Navigate, NavLink, useNavigate } from "react-router-dom";
 import { useState } from "react";
 
-function Navigation() {
+function NavigationDark() {
   const [isShown, setIsShown] = useState(true);
   const toggle = () => {
     setIsShown((current) => !current);
@@ -15,7 +14,7 @@ function Navigation() {
   return (
     <div className="navb">
       <div className="App">
-        <Navbar collapseOnSelect expand="lg" variant="light">
+        <Navbar collapseOnSelect expand="lg" variant="dark">
           <Container className="nav_text">
             <Navbar.Brand>
               {"<"}Sanidhya/{">"}
@@ -34,8 +33,8 @@ function Navigation() {
                     {"<"}About/{">"}
                   </Link>
                 </Nav.Link>
-                <Nav.Link as={NavLink} to="/dark">
-                  Dark
+                <Nav.Link as={NavLink} to="/light">
+                  Light
                 </Nav.Link>
               </Nav>
             </Navbar.Collapse>
@@ -46,4 +45,4 @@ function Navigation() {
   );
 }
 
-export default Navigation;
+export default NavigationDark;

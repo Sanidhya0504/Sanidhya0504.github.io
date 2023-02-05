@@ -16,6 +16,7 @@
 .text {
   text-align: left;
   color: #3974e8;
+  /* color: #5cc9f3; */
   padding-left: 30px;
 }
 .back--banner {
@@ -25,6 +26,7 @@
 #name--head {
   text-align: left;
   color: #00008b;
+  /* color: #d6deeb; */
   font-weight: bold;
   padding-left: 30px;
 }

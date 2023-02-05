@@ -1,0 +1,47 @@
+#about--dark {
+  background-color: #090514;
+  display: flex;
+}
+
+.ABOUT--dark {
+  font-size: 60px;
+  font-weight: 900;
+  color: #e5e8ed;
+}
+.about--wrap {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+
+  padding-right: 60px;
+  text-align: left;
+  color: #5f7e97;
+}
+.timeline--wrap--dark {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #090514;
+}
+
+/* text: #5f7e97  head: #e5e8ed */
+
+.edu--wrap--dark {
+  background-color: #090514;
+  max-width: 500px;
+  padding: 20px;
+  text-align: left;
+  color: #5f7e97;
+}
+
+@media (max-width: 1050px) {
+  #about--dark {
+    flex-direction: column;
+  }
+}
+
+#about--dark:hover ~ .cursor {
+  width: 100px;
+  height: 100px;
+}

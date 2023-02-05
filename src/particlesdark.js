@@ -2,7 +2,7 @@ import React from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 
-function Particle() {
+function ParticleDark() {
   const particlesInit = async (main) => {
     console.log(main);
     // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
@@ -22,8 +22,7 @@ function Particle() {
       options={{
         background: {
           color: {
-            // value: "#090514",
-            value: "#fff",
+            value: "#090514",
           },
         },
         fpsLimit: 120,
@@ -62,8 +61,9 @@ function Particle() {
             },
           },
           color: {
-            value: ["#BD10E0", "#B8E986", "#50E3C2", "#FFD300", "#E86363"],
+            // value: ["#BD10E0", "#B8E986", "#50E3C2", "#FFD300", "#E86363"],
             //value: ["#BD10E0", "#51d3dd"],
+            value: ["#edc808", "#e99622", "#e76c28"],
           },
           shape: {
             type: "circle",
@@ -121,4 +121,4 @@ function Particle() {
   );
 }
 
-export default Particle;
+export default ParticleDark;
