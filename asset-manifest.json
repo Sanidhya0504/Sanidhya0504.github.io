@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.6c49b512.css",
-    "main.js": "/static/js/main.8ea2067c.js",
+    "main.js": "/static/js/main.ab0a6c7e.js",
     "static/js/937.4c2b7811.chunk.js": "/static/js/937.4c2b7811.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
-    "static/media/—Pngtree—science and technology high-tech earth_5449137.png": "/static/media/—Pngtree—science and technology high-tech earth_5449137.c14bc4e0129e3a9812f5.png",
+    "static/media/globe.png": "/static/media/globe.b776aa6480aefce7e295.png",
     "static/media/pc.png": "/static/media/pc.b33b859e7ff0a3b50af5.png",
     "static/media/icons.png": "/static/media/icons.ca3419c10369aac23834.png",
     "static/media/waves.svg": "/static/media/waves.6d97c39c5ce015f2c2aa1c94515891a4.svg",
@@ -13,12 +13,12 @@
     "static/media/hat.svg": "/static/media/hat.66c1948860a518c39ed3d5b7297d7446.svg",
     "index.html": "/index.html",
     "main.6c49b512.css.map": "/static/css/main.6c49b512.css.map",
-    "main.8ea2067c.js.map": "/static/js/main.8ea2067c.js.map",
+    "main.ab0a6c7e.js.map": "/static/js/main.ab0a6c7e.js.map",
     "937.4c2b7811.chunk.js.map": "/static/js/937.4c2b7811.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6c49b512.css",
-    "static/js/main.8ea2067c.js"
+    "static/js/main.ab0a6c7e.js"
   ]
 }
