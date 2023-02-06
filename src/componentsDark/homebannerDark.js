@@ -1,5 +1,5 @@
 import React from "react";
-import Img from "../images/—Pngtree—science and technology high-tech earth_5449137.png";
+import Img from "../images/globe.png";
 import Img2 from "../images/pc.png";
 import ParticleDark from "../particlesdark";
 import "../stylesdark/homebannerDark.css";
