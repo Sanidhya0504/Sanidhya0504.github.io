@@ -29,7 +29,7 @@ function NavigationDark() {
                   </Link>
                 </Nav.Link>
                 <Nav.Link>
-                  <Link to="about" spy={true} smooth={false}>
+                  <Link to="about--dark" spy={true} smooth={false}>
                     {"<"}About/{">"}
                   </Link>
                 </Nav.Link>
