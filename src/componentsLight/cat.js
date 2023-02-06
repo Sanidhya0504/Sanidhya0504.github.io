@@ -2,7 +2,7 @@ import React from "react";
 import { Cat } from "react-kawaii";
 import "../stylesdark/cat.css";
 
-function kawaiiCat(catmood) {
+function KawaiiCat(catmood) {
   var mood = catmood.mood;
 
   if (mood == "") {
@@ -15,4 +15,4 @@ function kawaiiCat(catmood) {
   );
 }
 
-export default kawaiiCat;
+export default KawaiiCat;

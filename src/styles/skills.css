@@ -6,7 +6,8 @@
 .icon--wrap {
   display: flex;
   justify-content: center;
-
+  align-items: center;
+  flex-direction: column;
   margin-top: 10vh;
 }
 
@@ -25,9 +26,12 @@
   width: 20vh;
 }
 .skills--container {
-  justify-content: center;
-
   display: flex;
+  justify-content: center;
+}
+.skills-bottom-container {
+  width: 100%;
+  align-items: center;
 }
 .skill-container-left {
   display: flex;
@@ -65,6 +69,21 @@
 #skill--img {
   height: 110vh;
 }
+.skill-container-bottom {
+  width: 100%;
+  margin-top: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.skills-bottom-container-800 {
+  display: none;
+}
+.skills-mid-container {
+  display: flex;
+  flex-direction: column;
+}
+
 @media (max-width: 1000px) {
   #skill--img {
     height: 80vh;
@@ -80,10 +99,27 @@
   .skill-container-left {
     display: flex;
     flex-direction: column;
+    gap: 3vh;
   }
   .skill-container-right {
     display: flex;
+    gap: 3vh;
     flex-direction: column;
+  }
+  .skill-container-bottom {
+    display: none;
+  }
+  .skill-container-bottom-800 {
+    align-items: center;
+    gap: 3vh;
+    margin-top: 30vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .skills-bottom-container-800 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 
