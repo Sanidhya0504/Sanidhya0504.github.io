@@ -61,7 +61,7 @@ function Skills() {
                 />
                 <SiBootstrap
                   className="skill--icon"
-                  onMouseOver={() => changeMood("ko")}
+                  onMouseOver={() => changeMood("shocked")}
                 />
               </div>
             </div>
