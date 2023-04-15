@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import japan from "../images/japan.jpg";
 import "../styles/cursor.css";
 import { motion } from "framer-motion";
 import "../styles/about.css";

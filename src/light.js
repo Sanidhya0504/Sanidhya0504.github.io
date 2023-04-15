@@ -5,6 +5,7 @@ import Homebanner from "./componentsLight/homebanner";
 import About from "./componentsLight/about";
 import Footer from "./componentsLight/Footer";
 import Skills from "./componentsLight/skills";
+import Projects from "./componentsLight/projects";
 
 function Light() {
   return (
@@ -16,7 +17,7 @@ function Light() {
       <About />
 
       <Skills />
-
+      <Projects />
       <Footer />
       <kawaiiCat />
     </div>
