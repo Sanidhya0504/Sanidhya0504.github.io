@@ -1,5 +1,4 @@
 import React from "react";
-import icons from "../images/icons.png";
 import "../styles/skills.css";
 import KawaiiCat from "./cat";
 import { SiReact } from "react-icons/si";

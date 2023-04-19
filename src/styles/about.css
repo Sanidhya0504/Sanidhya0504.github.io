@@ -72,6 +72,7 @@
 .cursor {
   width: 20px;
   height: 20px;
+  z-index: 100;
   background-color: yellow;
   position: fixed;
   border-radius: 50%;
