@@ -1,9 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.4ccf9a95.css",
-    "main.js": "/static/js/main.cd52a3ab.js",
+    "main.css": "/static/css/main.bb449c73.css",
+    "main.js": "/static/js/main.13388796.js",
     "static/js/937.4c2b7811.chunk.js": "/static/js/937.4c2b7811.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/8k_earth_clouds.jpg": "/static/media/8k_earth_clouds.08fcd80007fae8fc7170.jpg",
+    "static/media/8k_earth_daymap.jpg": "/static/media/8k_earth_daymap.54672c1f3ba121d80470.jpg",
+    "static/media/8k_earth_specular_map.jpg": "/static/media/8k_earth_specular_map.7b4efa59933b470e3776.jpg",
+    "static/media/8k_earth_normal_map.jpg": "/static/media/8k_earth_normal_map.930cf2e99bc548140c29.jpg",
     "static/media/globe.png": "/static/media/globe.b776aa6480aefce7e295.png",
     "static/media/pc.png": "/static/media/pc.b33b859e7ff0a3b50af5.png",
     "static/media/icons.png": "/static/media/icons.ca3419c10369aac23834.png",
@@ -12,13 +16,13 @@
     "static/media/arrow.svg": "/static/media/arrow.72eb944bb94a864107bf875def0cfc1d.svg",
     "static/media/hat.svg": "/static/media/hat.66c1948860a518c39ed3d5b7297d7446.svg",
     "index.html": "/index.html",
-    "main.4ccf9a95.css.map": "/static/css/main.4ccf9a95.css.map",
-    "main.cd52a3ab.js.map": "/static/js/main.cd52a3ab.js.map",
+    "main.bb449c73.css.map": "/static/css/main.bb449c73.css.map",
+    "main.13388796.js.map": "/static/js/main.13388796.js.map",
     "937.4c2b7811.chunk.js.map": "/static/js/937.4c2b7811.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ccf9a95.css",
-    "static/js/main.cd52a3ab.js"
+    "static/css/main.bb449c73.css",
+    "static/js/main.13388796.js"
   ]
 }
