@@ -7,16 +7,21 @@ import Footer from "./componentsLight/Footer";
 import Skills from "./componentsLight/skills";
 import Projects from "./componentsLight/projects";
 import Contact from "./componentsLight/contact";
+import { Model } from "./Deskchair";
+import SphereComp from "./three/sphere";
 
 function Light() {
   return (
     <div className="App">
       <Navigation></Navigation>
+
       <Homebanner />
       <About />
       <Skills />
       <Projects />
       <Contact />
+      {/* <Model /> */}
+      {/* <SphereComp /> */}
       <Footer />
     </div>
   );

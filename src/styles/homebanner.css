@@ -30,6 +30,11 @@
   font-weight: bold;
   padding-left: 30px;
 }
+/* .sphere_wrap {
+  height: 41vh !important;
+  width: 41vh !important;
+  background-color: #00008b;
+} */
 
 @media (max-width: 850px) {
   #home--img {
