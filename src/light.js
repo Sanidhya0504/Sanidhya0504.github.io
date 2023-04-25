@@ -19,7 +19,7 @@ function Light() {
       <About />
       <Skills />
       <Projects />
-      <Contact />
+      {/* <Contact /> */}
       {/* <Model /> */}
       {/* <SphereComp /> */}
       <Footer />
