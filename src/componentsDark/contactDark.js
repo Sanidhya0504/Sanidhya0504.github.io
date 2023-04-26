@@ -1,11 +1,11 @@
 import React from "react";
-import "../styles/contact.css";
+import "../stylesdark/contactDark.css";
 import { Link } from "react-scroll";
 import { SiLeetcode, SiInstagram, SiGithub, SiLinkedin } from "react-icons/si";
-function Contact() {
+function ContactDark() {
   return (
     <div>
-      <footer class="footer-distributed">
+      <footer class="footer-distributed-dark">
         <div class="footer-left">
           <br></br>
 
@@ -43,4 +43,4 @@ function Contact() {
   );
 }
 
-export default Contact;
+export default ContactDark;

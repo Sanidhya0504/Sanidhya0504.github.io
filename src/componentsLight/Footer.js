@@ -4,9 +4,11 @@ import "../styles/footer.css";
 
 function Footer() {
   return (
-    <div>
-      <img className="wave" src={wave}></img>
-    </div>
+    <footer>
+      <div className="wave--container">
+        <img className="wave" src={wave}></img>
+      </div>
+    </footer>
   );
 }
 

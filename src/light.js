@@ -12,17 +12,18 @@ import SphereComp from "./three/sphere";
 
 function Light() {
   return (
-    <div className="App">
+    <div className="App d-flex flex-column">
       <Navigation></Navigation>
 
       <Homebanner />
       <About />
       <Skills />
       <Projects />
-      {/* <Contact /> */}
+      <Contact></Contact>
+      {/* <Footer /> */}
+
       {/* <Model /> */}
       {/* <SphereComp /> */}
-      <Footer />
     </div>
   );
 }

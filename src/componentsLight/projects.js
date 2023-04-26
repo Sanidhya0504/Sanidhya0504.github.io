@@ -10,7 +10,7 @@ function Projects() {
       <Fade down>
         <div className="m-3 p-3">
           <CardGroup className="wrap">
-            <Card className="p-3">
+            <Card className="p-3 card--opacity" text="dark">
               <Card.Img
                 variant="top"
                 src="https://imagefilesystem.blob.core.windows.net/myfiles/portfolio.png"
@@ -22,8 +22,13 @@ function Projects() {
                   Particle.js background and a Dark mode.
                 </Card.Text>
               </Card.Body>
+              <a
+                href="https://github.com/Sanidhya0504/Sanidhya0504.github.io"
+                className="stretched-link"
+              ></a>
             </Card>
-            <Card className="p-3">
+
+            <Card className="p-3 card--opacity" text="dark">
               <Card.Img
                 variant="top"
                 src="https://imagefilesystem.blob.core.windows.net/myfiles/discord.png"
@@ -35,8 +40,13 @@ function Projects() {
                   made with React js.
                 </Card.Text>
               </Card.Body>
+              <a
+                href="https://github.com/Sanidhya0504/discord-clone"
+                className="stretched-link"
+              ></a>
             </Card>
-            <Card className="p-3">
+
+            <Card className="p-3 card--opacity" text="dark">
               <Card.Img
                 variant="top"
                 src="https://imagefilesystem.blob.core.windows.net/myfiles/dijkstra.png"
@@ -48,6 +58,10 @@ function Projects() {
                   algoritham made with angular.
                 </Card.Text>
               </Card.Body>
+              <a
+                href="https://github.com/Sanidhya0504/Dijkstra-s-pathfinding-visualizer"
+                className="stretched-link"
+              ></a>
             </Card>
           </CardGroup>
         </div>

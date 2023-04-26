@@ -7,6 +7,7 @@ import FooterDark from "./componentsDark/FooterDark";
 import SkillsDark from "./componentsDark/skillsDark";
 import NavigationDark from "./navigationbardark";
 import ProjectsDark from "./componentsDark/projectsDark";
+import ContactDark from "./componentsDark/contactDark";
 
 function Dark() {
   return (
@@ -17,7 +18,7 @@ function Dark() {
       <AboutDark />
       <SkillsDark />
       <ProjectsDark />
-      <FooterDark />
+      <ContactDark />
     </div>
   );
 }

@@ -7,3 +7,6 @@
 .project-wrap {
   margin-top: 10vh;
 }
+.card--opacity {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+}

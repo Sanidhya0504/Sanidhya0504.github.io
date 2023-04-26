@@ -1,2 +1,9 @@
 .wave {
+  width: 100vw;
+}
+
+.wave--container {
+  height: 30vh;
+  width: 98.9vw;
+  overflow: hidden;
 }
